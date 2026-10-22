@@ -2,98 +2,86 @@
 
 # 🐍 Praktikum Algoritma & Pemrograman
 
-*Repository resmi untuk kumpulan tugas dan modul praktikum mata kuliah Algoritma dan Pemrograman menggunakan bahasa Python.*
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg?style=for-the-badge)
+
+*Repository ini berisi kumpulan materi, kode program, dan tugas mingguan Praktikum Algoritma & Pemrograman menggunakan bahasa **Python**.*
 
 ---
-
-![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-green.svg?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-active-brightgreen.svg?style=for-the-badge)
-
-[Fitur Utama](#-fitur--materi) •
-[Struktur Repository](#-struktur-repository) •
-[Cara Menggunakan](#-cara-penggunaan) •
-[Profil](#-profil)
 
 </div>
 
----
+## 📌 Daftar Isi
 
-## 📌 Gambaran Umum
-
-Repository ini dirancang untuk mendokumentasikan seluruh materi, latihan, dan tugas mingguan dari praktikum **Algoritma dan Pemrograman**. Setiap folder merepresentasikan modul mingguan yang berisi kode sumber Python (`.py` atau `.ipynb`) beserta penyelesaian studi kasus.
-
----
-
-## 📚 Struktur Repository
-
-Berikut adalah susunan direktori dalam repository ini:
-
-```text
-📂 Praktikum-Algoritma-Pemrograman
- ├── 📁 Prak_Minggu1/    # Dasar Python, Variabel & Tipe Data
- ├── 📁 Prak_Minggu2/    # Operator & Kondisional (If-Else)
- ├── 📁 Prak_Minggu3/    # Perulangan (Loops: For & While)
- ├── 📁 Prak_Minggu4/    # Struktur Data (List, Tuple, Dictionary, Set)
- ├── 📁 Prak_Minggu5/    # Fungsi & Modularisasi (Functions)
- └── 📄 README.md        # Dokumentasi utama
-```
+- [Tentang Repository](#-tentang-repository)
+- [Struktur Materi & Kurikulum](#-struktur-materi--kurikulum)
+- [Prasyarat & Tools](#-prasyarat--tools)
+- [Cara Penggunaan](#-cara-penggunaan)
+- [Kontak & Profil](#-kontak--profil)
 
 ---
 
-## 🗺️ Silabus Mingguan
+## 📖 Tentang Repository
 
-| Minggu | Modul / Topik Utama | Deskripsi Singkat | Status |
-| :---: | :--- | :--- | :---: |
-| **01** | Pengenalan Python & Tipe Data | Sintaks dasar, input/output, variabel, dan tipe data | `✅ Selesai` |
-| **02** | Kontrol Alur: Kondisional | Penggunaan `if`, `elif`, dan `else` untuk logika keputusan | `✅ Selesai` |
-| **03** | Kontrol Alur: Perulangan | Implementasi `for` loop, `while` loop, serta `break/continue` | `✅ Selesai` |
-| **04** | Struktur Data Dasar | Manipulasi `list`, `tuple`, `dictionary`, dan `set` | `✅ Selesai` |
-| **05** | Fungsi & Rekursi | Pembuatan fungsi (`def`), parameter, return value, dan lambda | `🔄 Berjalan` |
+Repository ini dirancang sebagai dokumentasi pembelajaran mandiri serta rekapitulasi tugas untuk mata kuliah **Praktikum Algoritma dan Pemrograman**. Setiap folder mencerminkan topik pembahasan mingguan yang dilengkapi dengan contoh kode dan penyelesaian studi kasus.
 
 ---
 
-## 💻 Cara Penggunaan
+## 📅 Struktur Materi & Kurikulum
 
-### 1. Prerequisites
-Pastikan Python versi 3.x sudah terinstall di perangkat Anda.
+ Sesuai dengan direktori folder dalam repository:
 
-### 2. Clone Repository
-```bash
-git clone https://github.com/amrexan0-tech/Praktikum-Algoritma-Pemrograman.git
-cd Praktikum-Algoritma-Pemrograman
-```
-
-### 3. Menjalankan Program
-Masuk ke direktori minggu yang diinginkan, kemudian jalankan script Python:
-```bash
-cd Prak_Minggu1
-python main.py
-```
+| Minggu | Folder | Topik Pembahasan | Deskripsi Ringkas |
+| :---: | :--- | :--- | :--- |
+| **01** | [`Prak_Minggu1`](./Prak_Minggu1) | **Pengenalan Python & Instalasi Tools** | Pengenalan konsep dasar Python, setup *environment*, IDE (VS Code/PyCharm), dan *Hello World*. |
+| **02** | [`Prak_Minggu2`](./Prak_Minggu2) | **Variabel, Tipe Data, I/O** | Deklarasi variabel, tipe data dasar (int, float, string, bool), serta Input/Output Statis dan Dinamis. |
+| **03** | [`Prak_Minggu3`](./Prak_Minggu3) | **Operator Python** | Penerapan Operator Aritmatika (`+`, `-`, `*`, `/`), Perbandingan (`==`, `!=`, `>`, `<`), dan Logika (`AND`, `OR`, `NOT`). |
+| **04** | [`Prak_Minggu4`](./Prak_Minggu4) | **Control Flow: IF ELIF ELSE** | Pengkondisian bercabang, struktur logika keputusan, dan studi kasus penentuan nilai/kategori. |
+| **05** | [`Prak_Minggu5`](./Prak_Minggu5) | **Match Case & Perulangan (Loops)** | Pencocokan pola (*Match Case*) serta sintaks perulangan menggunakan `FOR` dan `WHILE`. |
 
 ---
 
-## 🛠️ Tools & Lingkungan Kerja
+## 🛠️ Prasyarat & Tools
 
-- **Language:** Python 3
-- **IDE / Editor:** VS Code / PyCharm / Jupyter Notebook
-- **Version Control:** Git & GitHub
+Untuk menjalankan kode dalam repository ini, pastikan Anda telah menginstal beberapa tools berikut:
+
+- 🐍 **[Python 3.10+](https://www.python.org/downloads/)** (Direkomendasikan versi terbaru)
+- 📝 **[Visual Studio Code](https://code.visualstudio.com/)** / **PyCharm**
+- 🔌 **Extension Python** untuk VS Code
 
 ---
 
-## 👤 Profil
+## 🚀 Cara Penggunaan
 
-<div align="center">
+1. **Clone Repository Ini**
+   ```bash
+   git clone https://github.com/amrexan0-tech/Praktikum-Algoritma-Pemrograman.git
+   ```
 
-**[amrexan0-tech](https://github.com/amrexan0-tech)**  
-*Praktikan Algoritma & Pemrograman*
+2. **Masuk ke Direktori**
+   ```bash
+   cd Praktikum-Algoritma-Pemrograman
+   ```
+
+3. **Jalankan Salah Satu Program**
+   Pilih folder minggu yang ingin dijalankan, misalnya Minggu 1:
+   ```bash
+   cd Prak_Minggu1
+   python main.py
+   ```
+
+---
+
+## 👨‍💻 Penulis
+
+**amrexan0-tech**  
+*Mahasiswa / Practitioner of Computer Science*
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amrexan0-tech)
 
-</div>
-
 ---
 
 <div align="center">
-  <sub>Dibuat dengan ❤️ untuk pembelajaran Algoritma & Pemrograman.</sub>
+⭐ **Jangan lupa berikan Star jika repository ini bermanfaat!** ⭐
 </div>
